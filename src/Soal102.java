@@ -2,6 +2,7 @@
 //NIM = 254107060036
 //Kelas = SIB 1A
 //Soal ke 1
+// Link Github : https://github.com/alyafakhrunnisa/kuis2
 import java.util.Scanner;
 public class Soal102 {
     public static void main(String[] args) {
@@ -51,14 +52,14 @@ public class Soal102 {
         jumlahGenap = c1_g + c2_g + c3_g + c4_g + c5_g;
         jumlahGanjil = c1_j + c2_j + c3_j + c4_j + c5_j;
 
-        String daftarGenap = 
+        String daftarGenap = // Membuat String Daftar Genap
             (c1_g * arr[0]) + " " + 
             (c2_g * arr[1]) + " " + 
             (c3_g * arr[2]) + " " + 
             (c4_g * arr[3]) + " " + 
             (c5_g * arr[4]);
 
-        String daftarGanjil = 
+        String daftarGanjil = //    Membuat String Daftar Ganjil
             (c1_j * arr[0]) + " " + 
             (c2_j * arr[1]) + " " + 
             (c3_j * arr[2]) + " " + 
