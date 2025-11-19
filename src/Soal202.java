@@ -1,7 +1,7 @@
 //Nama = Alya Fakhrun Nisa
 //NIM = 254107060036
 //Kelas = SIB 1A
-//Soal ke 1
+//Soal ke 2
 // Link Github : https://github.com/alyafakhrunnisa/kuis2
 
 import java.util.Scanner;
@@ -91,9 +91,8 @@ public class Soal202 {
             }
         }
 
-        // --- 5. Menampilkan Hasil Akhir ---
-        
-        System.out.println("\n--- KESIMPULAN RATA-RATA GLOBAL ---");
+        //Menampilkan Hasil Akhir 
+
         System.out.printf("Kota dengan Rata-rata Suhu TERTINGGI: Kota %d (%.2f)\n", kotaMax, maxRataRata);
         System.out.printf("Kota dengan Rata-rata Suhu TERENDAH: Kota %d (%.2f)\n", kotaMin, minRataRata);
         System.out.println("=============================================");
